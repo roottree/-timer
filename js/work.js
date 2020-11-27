@@ -34,7 +34,7 @@ function updateCanvas() {
         if(!isTimeEndCountion) {
             clearInterval(handle); 
             handle = null; 
-            alert("计时时间到!"); 
+            alert("计时时间到!");  
             return 0; 
         }
     } 
